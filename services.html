@@ -1,0 +1,152 @@
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0;
+  }
+
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    background-color: #333;
+  }
+
+  .navbar a.active {
+    background-color: #444;
+  }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head> <ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Services | KemoArt Kreatives</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      transition: all 0.3s ease-in-out;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+    .service-card h3 {
+      color: #111;
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Our Creative Services</h1>
+    <p>At KemoArt Kreatives, we offer a variety of visual design solutions tailored to meet your needs.</p>
+  </header>
+
+  <!-- Services Grid -->
+  <section>
+    <h2>What We Offer</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Logo Design</h3>
+        <p>We create powerful, memorable logos that represent your brand’s identity and values.</p>
+      </div>
+      <div class="service-card">
+        <h3>Brand Identity</h3>
+        <p>From color palettes to typography, we help shape a full visual brand experience.</p>
+      </div>
+      <div class="service-card">
+        <h3>Poster & Flyer Design</h3>
+        <p>Whether it's a koito, concert, or campaign – we design stunning promotional materials that speak.</p>
+      </div>
+      <div class="service-card">
+        <h3>Social Media Graphics</h3>
+        <p>Custom content designed to engage, inform, and grow your digital audience.</p>
+      </div>
+      <div class="service-card">
+        <h3>Invitation Cards</h3>
+        <p>Elegant and personalized invites for weddings, birthdays, and cultural events.</p>
+      </div>
+      <div class="service-card">
+        <h3>Photo Editing</h3>
+        <p>High-quality retouching and manipulation for studio shots, events, and creative concepts.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

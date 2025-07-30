@@ -1,0 +1,173 @@
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0;
+  }
+
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    background-color: #333;
+  }
+
+  .navbar a.active {
+    background-color: #444;
+  }
+</style>
+
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KemoArt Kreatives | Home</title>
+  <style> 
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .cta {
+      text-align: center;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Welcome to KemoArt Kreatives</h1>
+    <p>Transforming ideas into stunning visuals. We specialize in creative design solutions that make brands shine.</p>
+  </header>
+
+  <!-- Services Section -->
+  <section>
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Logo & Brand Design</h3>
+        <p>Crafting unique logos and identities that make your brand unforgettable.</p>
+      </div>
+      <div class="card">
+        <h3>Poster & Flyer Design</h3>
+        <p>Eye-catching promotional materials tailored to your event or business.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Graphics</h3>
+        <p>Custom visuals for Facebook, Instagram, and other platforms.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section style="background: #f0f0f0;">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="edmax.jpg" alt="Company Logo">
+        <h4>Company logo - Edmax Technologies</h4>
+        <p> The logo is clean and confident look positions the brand as a leader in the ever-evolving tech space..</p>
+      </div>
+      <div class="card">
+        <img src="amron.jpg" alt="Amron Carwash Logo">
+        <h4>Logo - Amron Carwash</h4>
+        <p>This logo visually reinforces Amron Carwash as a trustworthy, efficient, and high-quality car care service.
+
+</p>
+      </div>
+      <div class="card">
+        <img src="upwork 4.png" alt="Company Logo">
+        <h4>Logo-Highlight Digital Marketing</h4>
+        <p>The logo blends a professional and creative look, suitable for a digital marketing brand..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2>Let's Work Together</h2>
+    <p>Ready to bring your ideas to life? Contact us today and let’s make something amazing together.</p>
+    <a href="#">Contact Us</a>
+  </section>
+
+</body>
+</html>
